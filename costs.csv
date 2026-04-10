@@ -1,0 +1,6 @@
+company,department,firstName,lastName,description,amount
+ACME,R&D,Whale,Portfolio,Server Rack,5500
+ACME,R&D,Full,Loop,Cloud Credits,1200
+ACME,IT,Bridge,Fixed,Switch,850
+ACME,IT,Step,Counter,Cabling,400
+ACME,Sales,Growth,Lead,CRM License,2500

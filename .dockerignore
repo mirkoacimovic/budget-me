@@ -1,0 +1,8 @@
+node_modules
+build
+.git
+venv
+build
+dist
+*.db
+.env
