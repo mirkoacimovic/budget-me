@@ -11,7 +11,7 @@ export interface CostEvent {
 
 interface BudgetState {
   history: CostEvent[];
-  activeTab: 'company' | 'dept' | 'emp';
+  activeTab: string;
 }
 
 const initialState: BudgetState = {
@@ -29,8 +29,8 @@ export const costsSlice = createSlice({
       // Keep only last 100 for performance
       if (state.history.length > 100) state.history.pop();
     },
-    setTab: (state, action: PayloadAction<'company' | 'dept' | 'emp'>) => {
-      state.activeTab = action.payload;
+    setTab: (state, action: PayloadAction<string>) => {
+  	state.activeTab = action.payload;
     },
   },
 });
